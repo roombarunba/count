@@ -39,6 +39,11 @@ class ViewController: UIViewController {
         count = 0;
         label.text = String(count);
     }
+    
+    @IBAction func kakeruni(){
+        count *= 2;
+        label.text = String(count);
+    }
 
 
 }
